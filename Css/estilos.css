@@ -1,0 +1,127 @@
+
+  body,html{
+    height: 100%;
+  }
+  .titulo{
+    font-family: poppins;
+    font-size: 5em;
+    color: antiquewhite;
+    
+    
+  }
+  .bg{
+    background: #fff;
+    background-image: url(../img/licores.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .bg-login{
+    background-image: url(../img/formulario.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+  }
+  .search-box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+.hamb{
+    background-color: #06611b;
+    opacity: 0.9;
+    border-radius: 5px;
+  }
+.btn.btn-search{
+    border-radius: 0 8px 0 0;
+    height: 50px;
+    background: #06611b;
+    color: #fff;
+    opacity: 0.9;
+
+}
+.search-input focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#result {
+    background: linear-gradient( #ffffff33,#06611b);
+    justify-content: center;
+    color: #bb93da;
+    line-height: 2em;
+    display: block;
+  }
+  #result img {
+    border: solid black 5px;
+    display: block;
+    max-width: 12.5em;
+    margin: auto;
+  }
+  #result h2 {
+    font-size: 1.25em;
+    margin: 0.8em 0 1.6em 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color:#9e1b6c;
+    position: relative;
+  }
+  #result h2:before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background-color: #470303;
+    left: 42.5%;
+    bottom: -0.3em;
+  }
+  #result h3 {
+    margin-left: 1.1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: #efedee;
+    
+  }
+  #result ul {
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #result li {
+    margin-bottom: 0.3em;
+  }
+  #result p {
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.95em;
+  }
+  .msg {
+    margin: 15px;
+  }
+  .form{
+    color:antiquewhite;
+  }
+  .text{
+    font-size: 25px;
+    font-family: poppins;
+  }
+  
+
