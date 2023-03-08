@@ -41,10 +41,11 @@ let getInfo = () => {
             ingredients.push(`${measure} ${ingredient}`);
           }
         }
+        
         console.log(ingredients);
-        result.innerHTML = `
+        result.innerHTML = ` 
       <img src=${myDrink.strDrinkThumb}>
-      <h2>${myDrink.strDrink}</h2>
+      <h2 class="text-center">${myDrink.strDrink}</h2>
       <h3>Ingredientes:</h3>
       <ul class="ingredients"></ul>
       <h3>Preparacion:</h3>

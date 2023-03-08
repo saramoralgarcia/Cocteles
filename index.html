@@ -12,8 +12,7 @@
 </head>
 <body class="bg"> 
    <div class="overlay" id="overlay" onclick="resetBg()"></div>
-
-            <h1 class="text-center text-capitalize fw-bolder m-3 titulo">The Drink Doctor</h1>
+        <h1 class="text-center text-capitalize fw-bolder m-3 titulo">The Drink Doctor</h1>
         <!-- Container -->
         
         <nav class="navbar navbar-expand-lg bg-gradient text">
@@ -31,17 +30,18 @@
                         <!-- Right Navbar -->
                         <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
+                            <a class="nav-link text-light" href="./index.html">Home</a>
+                        </li>                            
+                        <li class="nav-item">
                             <a class="nav-link text-light" href="./login.html" target="_blank">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./about.html">About</a>
+                            <a class="nav-link text-light" href="./about.html" target="_blank">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Help</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Feedback</a>
-                        </li>
+                        
                         </ul>
                         <!--End of Right Navbar -->
                     </div>
@@ -58,15 +58,14 @@
                     id="user-inp" value=" " autofocus="autofocus" autocomplete="off" onclick="setBgToDark()">
                     <span class="input-group-btn">
                         <button id="search-btn" class="btn btn-search">
-                            <img src="./img/kisspng-overline-tylt-underline-android-smartphone-magnifying-glass-material-5ae1d42ca88a57.8115869915247493566904.png" width="40">
+                            <img src="./img/kisspng-overline-tylt-underline-android-smartphone-magnifying-glass-material-5ae1d42ca88a57.8115869915247493566904.png" width="40" alt="lupa">
                         </button>
                     </span>
-                    <div id="result"></div>
+                    <div class="pt-3 search-container" id="result"></div>
                 </div>
             </div>
         </div>
         <!--End of Search Box-->
-    
     <!-- End of container-->
     <script src="./JavaScript/js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
